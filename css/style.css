@@ -1,0 +1,139 @@
+html{
+	height:  100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	height:  100%;
+	margin: 0px;
+	font-family: "Arial", "Verdana", sans-serif;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: inline-flex;
+	gap: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.Header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-grow: 1;
+	background: lavender;
+	font-size: 18px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: #737373;
+}
+
+.Hero {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 2;
+	background-color: lavender;
+	padding-left: 200px;
+	padding-right: 200px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	gap: 20px;
+}
+
+.Hero-left {
+	display: flex;
+	flex-direction: column;
+	flex:  1 1 50%;
+}
+
+.Hero-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	border-style: solid;
+	border-width: 2px;
+	flex:  1 1 50%;
+}
+
+.Info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	flex-grow: 2;
+	margin: 50px;
+}
+
+.Info-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap:  40px;
+}
+
+.Card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.CardImage {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 125px;
+	height:  125px;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: 2px;
+}
+
+.Quote {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 2;
+	background-color: lightgrey;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.Signup {
+	display: flex;
+	justify-content: center;
+	flex-grow: 2;
+}
+
+.Signup-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 400px;
+	background-color: lightblue;
+	margin:  40px;
+	padding: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	background-color: lightgrey;
+	align-items: center;
+}
